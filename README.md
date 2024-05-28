@@ -1,8 +1,8 @@
-# Práctica_2
+## Práctica_2
 Practica de clase para comenzar a utilizar Guthub como herramienta para el desarrollo colaborativo, control de versiones y documentación del proyecto integrador de la asignatura 
 ## comandos basicos para el Maquetado
 
-## Encabezados (Headings)
+### Encabezados (Headings)
 para poder dar enfasis a los contenidos de la documentacion podemos utilizar los encabezados (Headings)
 para marcar alguna sección o subsección, esto se marcan utilizando el símbolo ≠ , entre menos repetisiones tenga mayor tamaño e importancia tendra el texto
 Ejemplo:
