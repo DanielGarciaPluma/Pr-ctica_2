@@ -14,3 +14,8 @@ Ejemplo:
 ###### Encabezado nivel 6
 ####### Encabezado nivel 7 (Solo considera a los primeros 6 niveles)
 
+### 2. Separadores (SEPARATORS) - PRACTICA 03
+Si desea marcar una separacion mas visual de contenidos podemos utilizarlos indicando tres caracteres de "-"
+continuos, en el emaquetado
+Ejemplo:
+*Esto es similar a un tag de <HR> en HTML
