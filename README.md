@@ -97,11 +97,11 @@ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Te
 ##### Subrayado (UNDERLINE)
 
 Algunas veces necesitaremos subraya texto de la documentacion para ello, si bien Markdown no tiene un atajo o codificacion rapida 
-podemos utilizar el estilo que usa el estandar de HTML usando el tag <u> y  cerrando con </U>
+podemos utilizar el estilo que usa el estandar de HTML usando el tag <u> y  cerrando con </u>
 
 **EJEMPLO**
 Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto TextoTexto Texto Texto Texto Texto Texto Texto Texto
  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
- Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto <U> Texto Subrayado</U> Texto.
+ Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto <u> Texto Subrayado </u> Texto.
 
 
