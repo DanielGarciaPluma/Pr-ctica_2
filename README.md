@@ -46,22 +46,62 @@ Este parrafo esta alineado a la izquierda por defecto Este parrafo esta alineado
 Este parrafo esta alineado a la izquierda por defecto Este parrafo esta alineado a la izquierda por defecto 
 Este parrafo esta alineado a la izquierda por defecto Este parrafo esta alineado a la izquierda por defecto 
 
-<p aling="rigth">
+<p align="right">
 Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
+Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
+Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
+Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
+</p>
+
+<p align= "center">
 Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
 Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
 Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
 Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion </p>
 
-<p aling= "center">
-Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
-Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
-Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion
-Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion Este parrafo esta alineado a la derecha utilizando la propiedad de alineacion </p>
-
-<p aling= "justify">
+<p align= "justify">
 Este parrafo estara utilizando la propiedad de la alineacion Este parrafo estara utilizando la propiedad de la alineacion  Este parrafo estara utilizando la propiedad de la alineacion  
 Este parrafo estara utilizando la propiedad de la alineacion Este parrafo estara utilizando la propiedad de la alineacion  Este parrafo estara utilizando la propiedad de la alineacion  
 Este parrafo estara utilizando la propiedad de la alineacion Este parrafo estara utilizando la propiedad de la alineacion  Este parrafo estara utilizando la propiedad de la alineacion  </p>
+
+### 4. Texto Enfatizado (BOLD, ITALIC, BOLD/ITALIC)
+Si el texto que deseamos enfatizar se encuentra  de un parrafo, podemos utilizar algunos trucos para ubicarlos en la documentacion
+
+##### Texto en Negrita (BOLD)
+Para poner el texto en negrita, este debera ser encerrado entre dobles **
+
+Ejemplo:
+
+Texto Texto Texto Texto **Texto importante** Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+#### Texto en cursiva (ITALIC)
+
+Algunas veces es necesario resaltar algunas secciones o texto en cursiva para que el lector detecte el texto importante, dentro del maquetado con el estandar Markdown lo 
+podemos realizar ubicando el texto entre *(asteriscos)
+
+Ejemplo:
+
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+##### Texto en negrita y cursiva (BOLD & ITALIC)
+De igualmanera podemos unir ambos estilos **Negrita** y *Cursiva* para resaltar los textos que consideremos
+importantes dentro de la documentacion de nuestros proyectos de software, utilizando un triple * (asterico)
+
+Texto Texto Texto Texto Texto Texto ***Texto en Negrita y Cursiva*** Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+Texto Texto Texto Texto Texto Texto texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+
+##### Subrayado (UNDERLINE)
+
+Algunas veces necesitaremos subraya texto de la documentacion para ello, si bien Markdown no tiene un atajo o codificacion rapida 
+podemos utilizar el estilo que usa el estandar de HTML usando el tag <u> y  cerrando con </U>
+
+**EJEMPLO**
+Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto TextoTexto Texto Texto Texto Texto Texto Texto Texto
+ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+ Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto <U> Texto Subrayado</U> Texto.
 
 
