@@ -102,6 +102,6 @@ podemos utilizar el estilo que usa el estandar de HTML usando el tag <u> y  cerr
 **EJEMPLO**
 Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto TextoTexto Texto Texto Texto Texto Texto Texto Texto
  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
- Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto <u> Texto Subrayado </u> Texto.
+ Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto <ins> Texto Subrayado </ins> Texto.
 
 
