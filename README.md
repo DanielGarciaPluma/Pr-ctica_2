@@ -104,4 +104,30 @@ Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto TextoTex
  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
  Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto <ins> Texto Subrayado </ins> Texto.
 
+### 5. Cuadros para código o Reseñas (Blockquotes)
 
+Estos elementos son utilizados para resaltar instrucciones especificas para la instalación, configuración y/o inicializando o mostrar secciones de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que(/>).
+
+**Ejemplo**
+Para listar las carpetas y archivos  en desde una terminal de sistemas operativos Windows debemos ingresar el comando:
+
+> C:/dir
+
+Despues oprimimos la tecla "Enter".
+
+También podemos ingresar textos multilínea
+
+**Ejemplo**
+>Aquí se ingresa un conjunto de instrucciones
+> para explicar al usuario, como instalar el 
+>software que hemos diseñado.
+
+Y si deseamos incluir viñetas para enlistar pasos podemos utilizar el carácter - dentro del texto a documentar.
+
+**Ejemplo:Pasos para instalar la Base de Datos:**
+
+- Descargar MYSQL del Sitio Oficial
+- Instalar el Sistema Gestor de Base de Datos, definiendo el puerto y contraseña para el usuario ***root**
+- Descargamos el archivo de respaldo de la base de datos(.sql)
+- Restauramos la Base de Datos usando el comando *mysql*
+>>C:/Program Files/MyQSL Server 8.0/bin/mysql -u root- p password <respaldo.sql
