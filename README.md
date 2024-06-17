@@ -172,3 +172,79 @@ Documentacion creada por: ***Obed Guzman Flores***
 <230142@utxicotepec.edu.mx>
 
 <http://www.utxicotepec.edu.mx>
+
+#### 8. Tablas (Tables)
+Si la documentación lo requiere podemos presentar información en formato de tablas con filas y columnas, para maquetarlas podemos utilizar el caracter \| para delimitar las columnas y \- para delimitar las filas.
+
+**Ejemplo**
+
+|Encabezado 1|   Encabezado 2 |  Encabezado 3 | Encabezado 4 |
+|------------|----------------|---------------|--------------|
+|Fila 1 Celda 1|⁮Fila 1 Celda 2|Fila 1  Celda 3|Fila 1 Celda 4|
+|Fila 2 Celda 1|Fila 2 Celda 2|Fila 2  Celda 3|Fila 2 Celda 4|
+|Fila 3 Celda 1|Fila 3 Celda 2|Fila 3  Celda 3|Fila 3 Celda 4|
+
+En caso de necesitar la funsión de celdas en columnas usaremos la proiedad "colspan" del tag <td< y en el caso de necesitar la fusión de las filas utilizaremos la propiedad rowspan.
+
+**Ejemplo**
+
+|Encabezado 1|Encabezado 2| Encabezado 3| Encabezado 4|
+|------------|------------|-------------|-------------|
+|Fila 1 Celda 1|⁮Fila 1 Celda 2|Fila 1  Celda 3|Fila 1  Celda 4|
+|Fila 2 Celda 1|Fila 2 Celda 2|               |Fila 2  Celda 4|
+|Fila 3 Celda 1|Fila 3 Celda 2|Fila 3  Celda 3|Fila 3  Celda 4|
+|            |Fila 4 Celda 2|Fila 4  Celda 3|Fila 4  Celda 4|  
+|            |Fila 5 Celda 2|Fila 5  Celda 3|Fila 5  Celda 4|
+|Fila 6 Celda 1|Fila 6 Celda 2|Fila 6  Celda 3|Fila 6  Celda 4|
+
+Dado que en el ejemplo pasado usando solo markdown no se puede realizar la funcion de las filas debemos utilizar el estandar de HTML, usando los tags: \<th> para los encabezados, <tr> para las filas y para las celdas, y en ellos utilizar la propiedad de *colspan* y *rowspan*
+
+**Ejemplo:**
+<table>
+<tr>
+<th>Encabezado 1</th>
+<th>Encabezado 2</th>
+ <th>Encabezado 3</th>
+ <th>Encabezado 4</th>
+</tr>
+<tr>
+ <td>Fila 1 Celda 1</td>
+ <td>Fila 1 Celda 2</td>
+ <td>Fila 1 Celda 3</td>
+ <td>Fila 1 Celda 4</td>
+</tr>
+
+<tr>
+<td>Fila 2 Celda 1</td>
+<td colspan=3 align="center">Fila 2 Celda 2</td>
+
+</tr>
+<tr>
+<td rowspan=3> Fila 3 Celda 1</td>
+<td> Fila 3 Celda 2</td>
+<td> Fila 3 Celda 3</td>
+<td> Fila 3 Celda 4</td>
+</tr>
+
+<tr>
+<td>Fila 4 Celda 2</td>
+<td>Fila 4 Celda 3</td>
+<td>Fila 4 Celda 4</td>
+</tr>
+<tr>
+<td>Fila 5  Celda 2</td>
+<td>Fila 5  Celda 3</td>
+<td>Fila 5  Celda 4</td>
+
+</tr>
+<tr>
+<td>Fila 5  Celda 1</td>
+<td>Fila 5  Celda 2</td>
+<td>Fila 5  Celda 3</td>
+<td>Fila 5  Celda 4</td>
+
+
+</tr>
+
+
+</table>
