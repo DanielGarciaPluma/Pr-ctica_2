@@ -259,3 +259,4 @@ Para agregar imagenes debemos subirla al repositorio, en la opcion de subir arch
 ![Logo ](
 https://github.com/ObedGuzmanGuz/Pr-ctica_2/blob/main/WhatsApp%20Image%202024-06-16%20at%208.36.10%20PM.jpeg) 
 
+![](https://github.com/ObedGuzmanGuz/Pr-ctica_2/blob/main/WhatsApp%20Image%202024-06-16%20at%208.36.10%20PM%20(1).jpeg)
