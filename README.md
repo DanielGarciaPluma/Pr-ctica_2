@@ -155,3 +155,20 @@ Si queremos usar un orden que comience en un numero especifico debemos utilizar 
 <li>Sexto</li>
 <li>Septimo</li>
 </ol>
+
+### 7. 	Ligas (Hipervinculos)
+
+Las ligas son utiliadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetan utilizando los corchetes[], inmediatamente despues pondremos la liga de referencia entre parentesis ()
+
+**Ejemplo:**
+Mi buscador favorito es: [Google](www.google.com.mx)
+
+Pero si deseamos poner solo las ligas directas o un correo electronico podemos utilizarlas los simbolos < >
+
+**Ejemplo:**
+
+Documentacion creada por: ***Obed Guzman Flores***
+
+<230142@utxicotepec.edu.mx>
+
+<http://www.utxicotepec.edu.mx>
