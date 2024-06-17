@@ -248,3 +248,14 @@ Dado que en el ejemplo pasado usando solo markdown no se puede realizar la funci
 
 
 </table>
+
+### 9. Imagenes
+
+Para agregar imagenes debemos subirla al repositorio, en la opcion de subir archivos seleccionaremos las imagenes a subir, debemos darle en la opcion de commit changes para guardarlas, una vez guardadas, entraremos accediendo a las imagenes cargadas en nuestro repositorio para poder copiar su URL de cada una, para insertarlas y que se muestren utilizaremos la sintaxis de Markdown para imagenes, ![ Texto alternativo de la imagen ] (Url de la imagen cargada).
+
+**Imagenes del proyecto**
+
+
+![Logo ](
+https://github.com/ObedGuzmanGuz/Pr-ctica_2/blob/main/WhatsApp%20Image%202024-06-16%20at%208.36.10%20PM.jpeg) 
+
