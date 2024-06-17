@@ -131,3 +131,27 @@ Y si deseamos incluir viñetas para enlistar pasos podemos utilizar el carácter
 - Descargamos el archivo de respaldo de la base de datos(.sql)
 - Restauramos la Base de Datos usando el comando *mysql*
 >>C:/Program Files/MyQSL Server 8.0/bin/mysql -u root- p password <respaldo.sql
+### 6. Lista Ordenada y Listas Desordenadas
+
+Si en nuestra documentación necesitamos incluir información en modo de lista, un elemento tras otro podemos hacerlo utilizando los numeros con un punto decimal si las deseamos ordenadas o un guion medio - si solo queremos una viñeta.
+
+**Ejemplo:**
+Para crear tu primer repositorio en GitHub deberas:
+1. Contar con cuenta GitHub. 
+1. Dar click en el boton: **Nuevo Repositorio*.
+2. Asignarle un Nombre a tu repositorio, por ejemplo: *practica03-3b*
+8. Asignar un nivel de privacidad entre 
+- **Publico:** Si quieres que este disponible para todos los usuarios.
+- **Privado:** Si deseas que solo a quien tu decidas puedan y colaborar con tu proyecto.
+5. Definir si incluye un archivo de descripción llamado: *README.md*
+50. Definir si habrá exclusiones de archivos a través del archivo: *.gitigmore*
+3. Guardar los cambios
+
+Si queremos usar un orden que comience en un numero especifico debemos utilizar código HTML usando los tags < ol> y < li>:
+
+**Ejemplo:**
+<ol type="1" start="5">
+<li>Quinto</li>
+<li>Sexto</li>
+<li>Septimo</li>
+</ol>
